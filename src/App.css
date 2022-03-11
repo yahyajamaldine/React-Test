@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.App{
+  height: 100vh;
+  width: 100vw;
+}
+header{
+  display: flex;
+  background-color:#F7F7F7;
+  border-bottom:black;
+  padding-left: 100px;
+  height: 12%;
+}
+.logo{
+  flex: 1 0 70%;
+}
+h1{
+  margin-left: 100px;
+}
+main h1{
+  font-weight: bold;
+  font-size: 24px;
+}
+main>p{
+  margin-left: 100px;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+main{
+  height:fit-content;
+  background-color: #f0eeee; 
+}
+/****this section is for button's style****/
+.BtnGrp{
+  display: flex;
+  align-items: center;
+  flex: 1 0 30%;
+}
+button{
+  cursor: pointer;
+  margin-left: 15px;
+  background-color: #F7F7F7;
+  color:#FE5454;
+  border: none;
+  height: 50px;
+  width:80px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 19px;
+}
+button:hover{
+  text-decoration: underline;
+}
+.contained{
+  background-color: #FE5454;
+  color:white;
+  width: 110px;
+  border-radius: 15px;
+}
+.navBtn{
+  color:black;
+}
+/*************/
+/*************Styling the form************/
+.mainForm{
+  display: flex;
+  justify-content: center;
+  background-color: #f0eeee;
+  height:100%;
+  font-family: 'Roboto', sans-serif;
+}
+.mainForm form{
+  position: relative;
+  background-color: white;
+  top: 60px;
+  height:60%;
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-left: 40px;
+  border-radius: 15px;
+}
+.formTitle{
+  font-size: 32px;
+  font-weight: bold;
+}
+label{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+input{
+  display: block;
+  height: 55px;
+  width: 85%;
+  border: none;
+  background-color: #f0eeee;
+  font-size: 16px;
+  border-radius: 10px;
+  padding-left: 15px;
+}
+input::placeholder{
+  font-family: 'Roboto', sans-serif;
+  padding-left: 10px;
+   color:#757575;
+   font-size: 16px;
+}
+.bttn{
+  cursor: pointer;
+  height: 55px;
+  width: 90%;
+  margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #FE5454;
+  color:white;
+}
+.bttn:hover{
+  text-decoration: underline;
+}
+/**********/
+/*******Card part***/
+.container{
+  width: 85%;
+  height: 80%;
+  display: grid;
+  margin-left: 100px;
+  grid-template-columns: repeat(auto-fit,minmax(380px,1fr));
+
+}
+.card{
+  background-color: white;
+  padding-left: 17px;
+  height: 300px;
+  border-radius: 15px;
+  margin: 1rem;
+}
+.card .title{
+  font-size: 1.5rem;
+  font-weight: 700;
+
+}
+.card p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: bold; 
+  color: #757575;
+  letter-spacing: 0.05rem;
+}
+
+/**********/
